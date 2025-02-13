@@ -46,7 +46,7 @@ public class Publi extends JPanel {
         @Override
         public void paintBorder(Component c, Graphics g, int x, int y, int width, int height) {
             Graphics2D g2d = (Graphics2D) g.create();
-            g2d.drawRoundRect(x, y, width - 1, height - 1, radius, radius);
+            g2d.drawRoundRect(x, y, width - 1, height - 1, 25, 5);
             g2d.dispose();
         }
 
